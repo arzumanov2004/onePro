@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #eeeeee;
+}
+#weAre{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://preview.colorlib.com/theme/onepro/img/slider/slide-1.jpg");
+    .div{
+        width: 100%;
+        min-height: 700px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seeOrProject{
+        width: 100%;
+        min-height: 450px;
+        color: white;
+        h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h1{
+            font-weight: 800;
+            font-size: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+        button{
+            margin-top: 20px;
+            width: 200px;
+            height: 50px;
+            border: none;
+            background-color: #26b7e7;
+            color: white;
+        }
+    }
+}
+#webDevelopment{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    .web{
+        width: 100%;
+        min-height: 300px;
+        .lorem{
+            text-align: center;
+
+            .ff{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                div{
+                    width: 60px;
+                    height: 60px;
+                    border: 1px solid #26b7e7;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 35px;
+                }
+            }
+            h4{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            button{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 140px;
+                border-radius: 5px;
+                height: 40px;
+                background-color: #26b7e7;
+                border: none;
+                color: white;
+            }
+            button:hover{
+                background-color: black;
+            }
+        }
+
+    }
+}
+#PHOTOGRAPHY{
+    width: 1005;
+    min-height: 1200px;
+
+    .ourAwesone{
+        width: 100%;
+        min-height: 250px;
+        text-align: center;
+        
+        h2{
+            margin: 20px;
+        }
+       .div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 30px;
+            height: 3px;
+            background-color: #26b7e7;
+           
+        }
+       }
+        p{
+            margin: 20px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            padding-top: 20px;
+            li{
+                font-weight: 700;
+            }
+        }
+    }
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+      
+        .portfolio-content {
+          img {
+            width: 100%;
+            height: auto;
+          }
+      
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 15px;
+            width: 92%;
+            height: 100%;
+            background-color: rgba(38, 183, 231, 0.8);
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+            &:hover {
+              opacity: 1;
+            }
+      
+            h3,
+            p {
+              margin: 0;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    .col{
+        margin-bottom: 30px;
+        img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+}
+#end{
+    width: 100%;
+    height: 670px;
+    .ourAwesone{
+        width: 100%;
+        min-height: 150px;
+        text-align: center;
+       margin-bottom: 20px;
+        
+        h2{
+            margin: 20px;
+        }
+       .div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 30px;
+            height: 3px;
+            background-color: #26b7e7;
+           
+        }
+       }
+        p{
+            margin: 20px;
+        }
+        
+    }
+    .girl{
+        margin-top: 20px;
+        text-align: center;
+        img{
+            max-width: 100%;
+        }
+        .chef{
+            max-width: 100%;
+            min-height: 100px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           color: white;
+           background-color: #26b7e7;
+           text-align: center;
+           h5{
+            margin-top: 20px;
+           }
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    .footer{
+        width: 100%;
+        min-height: 70px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            margin-top: 15px;
+        }
+    }
+}
